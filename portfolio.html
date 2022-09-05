@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf=8">
+        <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
+        <title>Portfólio</title>  
+        <!--Parte de CSS com toda a formatação de cores, tamanhos e posições-->
+        <!--Foi usado o hover para dar efeito nos botões!-->
+        <!--Usei o keyframe para dar efeito no texto.-->
+        <style>
+
+            .corpo {
+                background-image: url('https://static.vecteezy.com/system/resources/previews/000/327/983/original/vector-blue-3d-particles-background-design.jpg');
+                height: 400px;
+                width: 100%;
+            }
+            h1 {
+                text-align: center;
+                text-align: center;
+                text-shadow: 0 0 20px black;
+                font-weight: bold;
+                color: #fff;                
+            }
+
+            .titulo1 {
+                text-align: center;
+                text-shadow: 0 0 20px black;
+                font-weight: bold;
+                color: #fff;
+                position: relative;
+                top: 210px;
+                text-decoration: blink;
+                animation: opacity 2s ease-in-out infinite;
+                opacity: 1;
+            }
+            @keyframes opacity {
+                0% {
+                opacity: 1;
+                }
+
+                50% {
+                opacity: 0
+                }
+
+                100% {
+                opacity: 1;
+                }
+            }
+
+            .botao {
+            
+            background:#4EBEED; 
+            border-radius: 6px; 
+            padding: 15px; 
+            cursor: pointer;
+            color: black; 
+            border: none; 
+            font-size: 16px;  
+            position: relative;   
+            left: 650px;   
+            top: 290px;       
+        }
+
+        .botao:hover {
+            background-color: #5260F7;
+            color: rgb(12, 14, 13);
+            font-size: 17px;                
+        }
+
+        </style> 
+    </head>
+    <body class="corpo">
+        <!--Eu não tinha nenhum projeto para apresentar nessa página
+        então quis deixar ela diferente, colocando o texto para piscar.-->
+        <div>
+            <h1>Portfólio</h1>
+            <h2 class="titulo1">Ainda não há nada para mostrar! ;(<br>
+            Em desenvolvimento!</h2>
+        </div>
+        <div>
+
+        </div>
+        <!--Finalizando com botão para voltar a tela inicial.-->
+        <a href="file:///C:/Users/danie/Documents/trabalhosite/cv.html"><button class = 'botao'>Voltar</button></a>        
+    </body>
+</html>

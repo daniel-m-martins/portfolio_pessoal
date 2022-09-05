@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf=8">
+        <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
+        <title>Contatos</title> 
+
+        <!--Parte de CSS com toda a formatação de cores, tamanhos e posições-->
+        <!--Foi usado o hover para dar efeito nos botões!--> 
+        <style>
+
+            .corpo {
+                background-image: url('https://static.vecteezy.com/system/resources/previews/000/327/983/original/vector-blue-3d-particles-background-design.jpg');
+                height: 400px;
+                width: 100%;
+            }
+
+            .titulo1 {
+                text-align: center;
+                text-shadow: 0 0 20px black;
+                font-weight: bold;
+                color: #fff;
+            }
+
+            .instagram {
+                border-radius: 40%;
+                width: 40px;
+                position: relative;
+                left: 50px;
+            }
+            .facebook {
+                border-radius: 70%;
+                width: 40px;
+                position: relative;
+                left: 50px;
+            }
+            .linkedin {
+                border-radius: 50%;
+                width: 40px;
+                position: relative;
+                left: 50px;
+            }
+
+            .botaoinsta {
+                top: -10px;
+                position: relative;
+                left: 55px;                
+            }
+
+            .caixa {
+                color: #fff;
+                position: relative;
+                left: 40px;
+
+            }
+
+            .botao {
+            
+            background:#4EBEED; 
+            border-radius: 6px; 
+            padding: 15px; 
+            cursor: pointer;
+            color: black; 
+            border: none; 
+            font-size: 16px;  
+            position: relative;   
+            left: 600px;          
+        }
+
+        .botao:hover {
+            background-color: #5260F7;
+            color: rgb(12, 14, 13);
+            font-size: 17px;                
+        }   
+        
+        input {
+            background-color: #95A9FF;
+        }
+
+        </style> 
+    </head>
+    <!--Legenda superior-->
+    <body class="corpo">
+        <div>
+            <h1 class="titulo1">Contatos</h1>
+        </div>
+        <div>
+
+            <!--Nessa div eu fiz o botões simples com as respectivas imagens que levam para minhas redes sociais-->
+
+            <img class="instagram" src="https://i2.wp.com/multarte.com.br/wp-content/uploads/2019/03/logo-instagram-png-fundo-transparente13.png?fit=2400%2C2400&ssl=1" alt="instagram">
+            <a href="https://www.instagram.com/sirdanmartins/"><button class="botaoinsta">Instagram</button></a>
+            <br>
+            <img class="facebook" src="https://th.bing.com/th/id/OIP.y1Di-i7rZBc7fL6m-KcFRgHaHa?pid=ImgDet&rs=1" alt="facebook">
+            <a href="https://www.facebook.com/thedarkdan/"><button class="botaoinsta">Facebook</button></a>
+            <br>
+            <img class="linkedin" src="https://logospng.org/download/linkedin/logo-linkedin-icon-1536.png" alt="linkedin">
+            <a href="https://www.linkedin.com/in/daniel-martins-9069861b7/"><button class="botaoinsta">LinkeIn</button></a>
+            <br>
+            
+        </div>
+        <form>
+            <!--Nesse formulário, coloquei alguns inputs de texto, para simular como se 
+            o usuário pudesse mandar mensagem para mim direto no email.-->
+            <div class="caixa">
+                <h3>Quer me enviar uma mensagem? Eu te respondo no email!</h3>
+                <h4>Digite seu nome:</h4>
+                <input type="textarea" name="Mensagem" id="msg" size="10"><br>
+                <h4>Digite seu email:</h4>
+                <input type="textarea" name="Mensagem" id="msg" size="30"><br>
+                <h4>Digite a sua mensagem:</h4>
+                <input type="textarea" name="Mensagem" id="msg" size="60"><br><br>
+
+                <input type="submit" value="Enviar" onclick="msg(Enviado)">
+
+            </div>
+        </form>
+
+        <!--Finalizando com botão para voltar a tela inicial.-->
+        <a href="file:///C:/Users/danie/Documents/trabalhosite/cv.html"><button class = 'botao'>Voltar</button></a>
+
+    </body>
+</html>
